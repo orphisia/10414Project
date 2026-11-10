@@ -1,0 +1,242 @@
+{
+  "main": {
+    "id": "5b02d6b88639f124",
+    "type": "split",
+    "children": [
+      {
+        "id": "de6666acda2530e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "637b8c1ad9adf458",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thread Block.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Thread Block"
+            }
+          },
+          {
+            "id": "a8e1c6fe9fbbd776",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Needle implementation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Needle implementation"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "a5d1abb9d54ac14d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "596f33e7e5bf7232",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0d798c6fa8f7962d",
+    "type": "split",
+    "children": [
+      {
+        "id": "19ca4e79a2e31191",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9f8ad4437579661",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "47684bcabe129aeb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "27b4f25b64dec66c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "fbdaff50b6d86030",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a047cd00b056cd3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "24221d3a547f3405",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Needle implementation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "9fd48baa56eee5ad",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Needle implementation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "c27955e4146c58d1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "22d4c27c83e1efd7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2976a17ecbcf3cf6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Needle implementation.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "a8e1c6fe9fbbd776",
+  "lastOpenFiles": [
+    "ndarray_backend_cuda.cu.md",
+    "autograd.py.md",
+    "Needle implementation.md",
+    "NDArray.md",
+    "ndarray.py.md",
+    "Thread Block.md",
+    "Coalesced Memory Access.md",
+    "High Bandwidth Memory.md",
+    "On Chip SRAMs.md",
+    "Streaming Multiprocessor.md",
+    "Thread.md",
+    "registers.md",
+    "Kernel Fusion.md",
+    "Softmax Operation.md",
+    "CUDA.md",
+    "Untitled.canvas",
+    "cycle.md"
+  ]
+}
