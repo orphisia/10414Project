@@ -649,6 +649,42 @@ class NDArray:
         view, out = self.reduce_view_out(axis, keepdims=keepdims)
         self.device.reduce_max(view.compact()._handle, out._handle, view.shape[-1])
         return out
+    
+    # transformer specific op
+
+    def swiglu(self, other):
+        assert self.shape == other.shape
+        assert self.device == other.device
+        a = self.compact() 
+        b = other.compact() 
+
+        out = NDArray.make(self.shape, device=self.device)
+
+        self.device.swiglu_forward(
+            a._handle,
+            b._handle, 
+            out._handle
+        )
+        return out
+    def swiglu_backward(self, other, dout):
+        assert self.shape == other.shape == dout.shape
+        assert self.device == other.device == dout.device
+
+        a = self.compact() 
+        b = other.compact() 
+        dy = dout.compact() 
+
+        dx1 = NDArray.make(self.shape, device=self.device)
+        dx2 = NDArray.make(self.shape, device=self.device)
+
+        self.device.swiglu_backward(
+            dy._handle,
+            a._handle,
+            b._handle,
+            dx1._handle,
+            dx2._handle,
+        )
+        return dx1, dx2
 
 
 
@@ -695,5 +731,6 @@ def tanh(a: NDArray) -> NDArray:
 
 def sum(a: NDArray, axis: int | tuple[int] | list[int] | None = None, keepdims: bool = False) -> NDArray:
     return a.sum(axis=axis, keepdims=keepdims)
+
 
 
